@@ -472,17 +472,36 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("https://lp.wisofttechnologies.com/nmc-landingpage/assets/img/Banner.png") top left;
+  /* background: url("https://lp.wisofttechnologies.com/nmc-landingpage/assets/img/Banner.png") top left; */
+  background: url(../img/mnc\ hospital-Banner.jpg) top left;
   background-size: cover;
   position: relative;
 }
 .backgroung-img-nmc{
   width: 100%;
   /* height: 75vh; */
-  background: url("https://lp.wisofttechnologies.com/nmc-landingpage/assets/img/mnc hospital.jpg");
-  background-size: cover;
-  position: relative;
+  /* background: url("https://lp.wisofttechnologies.com/nmc-landingpage/assets/img/mnc hospital.jpg"); */
+  /* background-color:#106eea; */
+  background-color: #1599d7;
+  /* background-size: cover; */
+  /* position: relative; */
 }
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  .swiper-slide video{
+    width:100%;
+  }
+  .swiper-slide img{
+    width:100%;
+    margin-top: 30px;
+    height: 250px;
+  }
+}
+
 .skills-bg{
   width: 100%;
   /* height: 75vh; */
@@ -714,10 +733,10 @@ section {
 
 /* member color */
 .card-color{
-  background-image: linear-gradient(to right, rgb(36, 22, 191) , rgb(91, 125, 218))!important;
+  /* background-image: linear-gradient(to right, rgb(36, 22, 191) , rgb(91, 125, 218))!important; */
 }
 /* media */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card-color{
     background-image: linear-gradient(to right, rgb(57, 94, 206) , rgb(255, 255, 255))!important;
   }
@@ -727,7 +746,7 @@ section {
   .color-display{
     background-image: linear-gradient(to right, rgb(57, 94, 206) , rgb(255, 255, 255))!important;
   }
-}
+} */
 
 
 /* togglr */ 
@@ -1962,4 +1981,6 @@ padding: 15px;
   /* height: 40%; */
 }
 
-/* call contact */
+
+
+
